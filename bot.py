@@ -7,12 +7,12 @@ import aiohttp
 from hurry.filesize import size, si
 import traceback
 
-api_id = int("8")
-api_hash = "7245de8e747a0d6fbe11f7cc14fcc0bb"
-bot_token = "Edit"
+api_id = int("1227887")
+api_hash = "33fff4db071026e1ebcb931382c50afc"
+bot_token = "1134477113:AAELsIBFddKu6Cuahjho-cFrJdt14WXpXsQ"
 download_path = "Downloads/"
 
-username = "@URLYUKLEBOT"
+username = "@LinkafileBot"
 bot = TelegramClient('upbot', api_id, api_hash).start(bot_token=bot_token)
 
 def get_date_in_two_weeks():
